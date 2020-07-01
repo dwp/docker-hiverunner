@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  IMAGE_NAME: dwpdigital/example
+  IMAGE_NAME: dwpdigital/hiverunner
 
 jobs:
   get-publish-version:
