@@ -5,4 +5,3 @@ RUN mvn clean install
 
 ENTRYPOINT [ "mvn", "test" ]
 
-
