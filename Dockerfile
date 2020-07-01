@@ -5,3 +5,4 @@ RUN mvn -f /home/app/pom.xml clean package
 
 ENTRYPOINT [ "mvn test" ]
 
+
