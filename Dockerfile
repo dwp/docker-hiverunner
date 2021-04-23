@@ -5,3 +5,7 @@ COPY data/test_data.tsv /usr/src/dataworks-pdm/data/
 RUN mvn install && rm -rf target
 FROM base as test
 RUN mvn test
+
+FROM  test as deploy
+
+ENTRYPOINT [ "mvn", "test" ]
