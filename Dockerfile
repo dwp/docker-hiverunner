@@ -8,4 +8,5 @@ RUN mvn test
 
 FROM  test as deploy
 
+
 ENTRYPOINT [ "mvn", "test" ]
